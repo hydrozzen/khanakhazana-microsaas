@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KhanaKhazana Results</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body Styling */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      background: #141414;
+      color: #fff;
+    }
+
+    /* Header */
+    header {
+      background: #e50914; /* Netflix red */
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .header-container h1 {
+      margin: 5px 0;
+      font-size: 2.8em;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    .header-container p {
+      margin: 5px 0;
+      font-size: 1.2em;
+    }
+
+    /* Main Content Section */
+    main {
+      padding: 20px;
+    }
+
+    /* Recipe Container */
+    .recipe-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    ul{
+        margin-left : 7px;
+    }
+
+    /* Recipe Card */
+    .recipe-card {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      border: 1px solid #555;
+      border-radius: 8px;
+      background: #333; /* Dark grey background */
+      padding: 15px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+      transition: transform 0.2s ease;
+      color: #fff;
+    }
+
+    .recipe-card:hover {
+      transform: scale(1.05);
+    }
+
+    /* Recipe Image Section */
+    .recipe-image img {
+      border-radius: 8px;
+      max-height: 150px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    /* Recipe Details Section */
+    .recipe-details {
+      padding: 10px 0;
+      text-align: left;
+      width: 100%;
+    }
+
+    .recipe-details h2 {
+      margin-bottom: 8px;
+      font-size: 1.3em;
+      color: #e50914; /* Netflix red */
+    }
+
+    .recipe-details p {
+      margin-bottom: 8px;
+      font-size: 0.9em;
+      color: #ddd; /* Lighter grey for better contrast */
+    }
+
+    /* No Results Section */
+    .no-results {
+      text-align: center;
+      font-size: 1.2em;
+      color: #ddd;
+      padding: 20px;
+      border: 1px dashed #555;
+      border-radius: 5px;
+      background: #222;
+    }
+
+    /* Footer Section */
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background: #333;
+      color: #fff;
+      margin-top: 20px;
+      font-size: 0.9em;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .recipe-card {
+        width: 100%;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 1200px) {
+      .recipe-card {
+        width: 48%;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .recipe-card {
+        width: 30%;
+      }
+      
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="header-container">
+      <h1>🍽️ KhanaKhazana Results</h1>
+      <p><strong>Your Ingredients:</strong> {{ ', '.join(user_ingredients) }}</p>
+    </div>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    {% if recipes %}
+      <div class="recipe-container">
+        {% for recipe in recipes %}
+          <div class="recipe-card">
+           
+            <!-- Recipe Details Section -->
+            <div class="recipe-details">
+              <h2>{{ recipe.name }}</h2>
+              <p><strong>Ingredients:</strong> {{ ', '.join(recipe.ingredients) }}</p>
+              <p><strong>Instructions:</strong> {{ recipe.instructions }}</p>
+
+              {% if recipe.missing_ingredients %}
+                <p><strong>Missing Ingredients:</strong> {{ ', '.join(recipe.missing_ingredients) }}</p>
+                <p><strong>Suggested Substitutes:</strong></p>
+                <ul>
+                  {% for ing, sub in recipe.substitutes.items() %}
+                    <li>{{ ing }}: {{ sub }}</li>
+                  {% endfor %}
+                </ul>
+              {% else %}
+                <p style="color: green;"><strong>No missing ingredients! You're all set to make this recipe.</strong></p>
+              {% endif %}
+            </div>
+          </div>
+          <hr />
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="no-results">
+        <p>No recipes matched your ingredients. Try adjusting your search criteria.</p>
+      </div>
+    {% endif %}
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2023 Recipe Finder - All Rights Reserved 🍳</p>
+  </footer>
+</body>
+
+</html>

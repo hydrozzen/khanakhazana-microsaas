@@ -1,0 +1,98 @@
+[
+    {
+      "name": "Masala Dosa",
+      "ingredients": ["rice", "urad dal", "potato", "spices", "fermented batter"],
+      "instructions": "चावल और उरद दाल को रातभर भिगोकर एक साथ पीस कर बैटर तैयार करें। / Soak rice and urad dal overnight and grind them into a smooth batter. Let it ferment for a few hours. तवे को गर्म करें, थोड़ा तेल लगाएं, और पतला डोसा बेलें। / Heat a tawa, grease it with oil, and spread a thin layer of the batter to make a dosa. आलू मसाला तैयार कर डोसे में भरें और सर्व करें। / Prepare spiced mashed potatoes and stuff them into the dosa before serving."
+    },
+    {
+      "name": "Poha",
+      "ingredients": ["flattened rice", "onion", "potato", "mustard seeds", "spices"],
+      "instructions": "पोहा अच्छे से धोकर पानी निकालें। / Wash poha thoroughly and drain water. एक कढ़ाई में तेल गरम करें, उसमें सरसों के दाने, प्याज और आलू डालकर भूनें। / Heat oil in a pan, add mustard seeds, followed by onions and potatoes. Fry until golden. हल्दी और मसाले डालें। / Add turmeric and spices. फिर Poha डालकर अच्छे से मिला लें और गरमा-गरम परोसें। / Mix in the poha, cook for 5 minutes, and serve warm."
+    },
+    {
+      "name": "Aloo Paratha",
+      "ingredients": ["wheat flour", "potato", "butter", "onion", "spices"],
+      "instructions": "आटे को गूंथें और सॉफ्ट डो बना लें। / Knead wheat flour into a soft dough. आलू को उबालें, मिक्स करें प्याज और मसाले के साथ। / Boil potatoes and mix with onions and spices. आटे की छोटी लोई बना कर उसमें आलू का मसाला भरें। / Take a small ball of dough, stuff it with the potato mixture, and roll it out. बेलन से बेलें और तवे पर बटर लगाकर सेंकें। / Roll out the dough and cook on a tawa with butter until golden and crispy."
+    },
+    {
+      "name": "Chole Bhature",
+      "ingredients": ["chickpeas", "flour", "yogurt", "onion", "spices"],
+      "instructions": "चोल्लों को रातभर भिगोकर उबालें। / Soak chickpeas overnight and boil them until tender. प्याज और मसालों के साथ पकाएं। / Cook them with onions and spices. भटूरे के लिए, आटे में दही और थोड़ा बेकिंग सोडा मिलाएं, आटे को 1 घंटे तक आराम दें। / For the bhature, mix yogurt and a pinch of baking soda with the flour, let it rest for 1 hour. फिर छोटी पूरियां बेलें और तेल में फ्राई करें। / Roll out small portions and fry in oil until golden and puffed."
+    },
+    {
+      "name": "Butter Chicken",
+      "ingredients": ["chicken", "butter", "tomato", "cream", "spices"],
+      "instructions": "चिकन को दही और मसालों में 1 घंटे तक मैरिनेट करें। / Marinate chicken in yogurt and spices for 1 hour. एक पैन में बटर गरम करें और उसमें चिकन डालकर पकाएं। / Heat butter in a pan and cook the marinated chicken until golden. फिर टमाटर की प्योरी और क्रीम डालकर 15-20 मिनट तक धीमी आंच पर पकाएं। / Add tomato puree and cream, and simmer for 15-20 minutes on low heat. गरमा-गरम सर्व करें। / Serve hot with naan or rice."
+    },
+    {
+      "name": "Vegetable Biryani",
+      "ingredients": ["rice", "mixed vegetables", "onion", "spices", "saffron"],
+      "instructions": "चावल को आधा पकाएं। / Partially cook rice until it's 75% done. एक पैन में तेल गरम करें, प्याज और मसालों के साथ सब्जियां डालकर भूनें। / In a separate pan, heat oil, add onions and vegetables, and sauté with biryani spices. फिर आधा पका चावल और सब्जियों को लेयर बनाकर रख दें। / Layer the vegetables and rice together. ऊपर से हल्दी और केसर का पानी डालकर 20-25 मिनट तक दम पर रखें। / Drizzle saffron milk over the top and let it steam for 20-25 minutes until aromatic."
+    },
+    {
+      "name": "Samosa",
+      "ingredients": ["potato", "peas", "flour", "spices", "oil"],
+      "instructions": "आटे को गूंथकर नरम डो बना लें। / Knead the dough until it's soft and pliable. आलू, मटर और मसाले मिलाकर स्टफिंग तैयार करें। / Boil potatoes, mix with green peas and spices to prepare the filling. आटे से छोटी-छोटी पूरियां बेलें, उसमें स्टफिंग भरें और गरम तेल में फ्राई करें। / Roll out small circles of dough, fill them with the prepared mixture, and deep fry in hot oil until golden and crispy."
+    },
+    {
+      "name": "Ras Malai",
+      "ingredients": ["paneer", "milk", "sugar", "cardamom", "saffron"],
+      "instructions": "दूध में चीनी, इलायची और केसर डालकर उबालें। / Boil milk with sugar, cardamom, and saffron. पनीर को छोटे-छोटे टुकड़ों में काटकर उसमें दूध डालकर 10-15 मिनट तक पकाएं। / Cut paneer into small pieces and simmer it in the sweetened milk for 10-15 minutes. ठंडा होकर सर्व करें। / Serve chilled."
+    }
+    {
+        "name": "Chapati",
+        "ingredients": ["wheat flour", "water", "salt"],
+        "instructions": "आटा गूथें और 5-6 छोटी लोइयां बना लें। / Knead wheat flour with water and pinch of salt to make a soft dough and divide into small balls. बेलन से बेलें और तवे पर सेंकें। / Roll them out into thin discs and cook on a heated tawa until light brown spots appear on both sides."
+      },
+      {
+        "name": "Chilla",
+        "ingredients": ["gram flour", "water", "onion", "tomato", "spices"],
+        "instructions": "बेसन में पानी मिलाकर पतला बैटर तैयार करें। / Mix gram flour with water to make a smooth, thin batter. प्याज और टमाटर काटें और मसाले डालें। / Chop onions and tomatoes and add spices to the batter. तवे पर तेल गरम करके बैटर से चिल्ला बेलें और दोनों तरफ सेंकें। / Heat oil in a tawa and pour the batter to make a chilla. Cook until golden brown on both sides."
+      },
+      {
+        "name": "Rajma",
+        "ingredients": ["red kidney beans", "onion", "tomato", "garlic", "spices"],
+        "instructions": "राजमा को रातभर भिगोकर उबालें। / Soak kidney beans overnight and boil until tender. एक कढ़ाई में तेल गरम करें, उसमें प्याज और लहसुन भूनें। / Heat oil in a pan, add chopped onions and garlic, and fry until golden. फिर टमाटर और मसाले डालकर ग्रेवी तैयार करें। / Add tomatoes and spices to make the gravy. फिर उसमें राजमा डालकर 20-25 मिनट तक पकाएं। / Add boiled kidney beans and simmer for 20-25 minutes."
+      },
+      {
+        "name": "Pizza",
+        "ingredients": ["pizza base", "tomato sauce", "cheese", "vegetables", "pepperoni"],
+        "instructions": "पिज्जा बेस पर टमाटर सॉस लगाएं। / Spread tomato sauce over the pizza base. फिर उसकी ऊपर चीज़ और अपनी पसंदीदा सब्जियां डालें। / Add cheese and your choice of vegetables. पेपरोनी भी डाल सकते हैं। / You can also add pepperoni if preferred. ओवन में 180°C पर 15-20 मिनट तक बेक करें। / Bake in a preheated oven at 180°C for 15-20 minutes until the cheese melts and the crust is golden brown."
+      },
+      {
+        "name": "Burger",
+        "ingredients": ["burger bun", "patty", "onion", "tomato", "lettuce", "cheese"],
+        "instructions": "बर्गर पैटी तैयार करें और तवे पर सेंकें। / Prepare burger patties and cook them on a tawa or grill until golden brown. बर्गर बन पर लेटिस, टमाटर और प्याज के स्लाइस लगाएं। / Place lettuce, tomato, and onion slices on the burger bun. फिर पैटी और चीज़ के साथ सैंडविच करें। / Add the patty and cheese, and assemble your burger. इसे अपनी पसंदीदा सॉस के साथ परोसें। / Serve with your favorite sauce."
+      },
+      {
+        "name": "Chowmein",
+        "ingredients": ["noodles", "cabbage", "carrot", "onion", "soy sauce", "oil"],
+        "instructions": "नूडल्स को उबालें और पानी निकालें। / Boil noodles and drain the water. कढ़ाई में तेल गरम करें, उसमें प्याज, गाजर और गोभी डालकर भूनें। / Heat oil in a pan, add onions, carrots, and cabbage, and stir-fry. फिर उसमें नूडल्स और सोया सॉस डालकर अच्छे से मिलाएं। / Add boiled noodles and soy sauce, and stir-fry for 2-3 minutes until combined."
+      },
+      {
+        "name": "Pasta",
+        "ingredients": ["pasta", "tomato sauce", "cheese", "onion", "garlic", "vegetables"],
+        "instructions": "पास्ता उबालें और अलग रखें। / Boil pasta until al dente and set aside. कढ़ाई में तेल गरम करें, उसमें लहसुन और प्याज डालकर भूनें। / Heat oil in a pan, add garlic and onions, and sauté until fragrant. फिर टमाटर सॉस और सब्जियां डालें। / Add tomato sauce and vegetables, and cook until vegetables are tender. उबला हुआ पास्ता सॉस में मिला लें और चीज़ डालें। / Mix the boiled pasta into the sauce and top with cheese before serving."
+      },
+      {
+        "name": "Idli",
+        "ingredients": ["rice", "urad dal", "fermented batter", "salt"],
+        "instructions": "चावल और उरद दाल को रातभर भिगोकर पीसें। / Soak rice and urad dal overnight and grind them into a smooth batter. बैटर को 8-12 घंटे के लिए फेरमेंट करें। / Allow the batter to ferment for 8-12 hours. इडली स्टैंड में बैटर भरें और स्टीमर में 15-20 मिनट तक पकाएं। / Pour the batter into an idli stand and steam for 15-20 minutes."
+      },
+      {
+        "name": "Momos",
+        "ingredients": ["flour", "cabbage", "carrot", "onion", "ginger", "garlic"],
+        "instructions": "आटा गूंथें और नरम डो बना लें। / Knead flour into a soft dough. स्टफिंग के लिए, प्याज, गाजर, गोभी, अदरक और लहसुन डालकर भरावन तैयार करें। / Prepare the filling by combining chopped onion, cabbage, carrot, ginger, and garlic. डो बेलें, स्टफिंग भरें और स्टीम करें। / Roll out dough, stuff the filling, and steam for 10-15 minutes until tender."
+      },
+      {
+        "name": "Gajar Halwa",
+        "ingredients": ["carrot", "milk", "sugar", "ghee", "cardamom"],
+        "instructions": "गाजर कद्दूकस करें और कढ़ाई में घी गरम करें। / Grate carrots and heat ghee in a pan. उसमें गाजर डालकर 5-6 मिनट तक भूनें। / Add grated carrots and sauté for 5-6 minutes. फिर दूध, चीनी और इलायची डालें। / Add milk, sugar, and cardamom. 15-20 मिनट तक पकाएं। / Cook for 15-20 minutes until it thickens."
+      },
+      {
+        "name": "Milk Cake",
+        "ingredients": ["milk", "sugar", "ghee", "cardamom"],
+        "instructions": "पढ़े में दूध और चीनी डालें। / Combine milk and sugar in a heavy-bottomed pan. उसमें घी और इलायची डालकर पकाएं। / Add ghee and cardamom, stirring continuously. 10-15 मिनट तक पकाएं, जब तक कि यह गाढ़ा न हो जाए। / Cook for 10-15 minutes until thickened, and set aside to cool."
+      }
+  ]
+  
